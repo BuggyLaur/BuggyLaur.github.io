@@ -8,7 +8,7 @@ body { line-height: 1.5; min-height: 100vh }
 @media (min-width: 768px ) { body { text-rendering: optimizeLegibility } }
 img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
-body { background-color: antiquewhite; }
+body { background-color: purple; }
 
 /* ====== PADDING AROUND CONTENT ======  */
 
@@ -18,32 +18,31 @@ body { background-color: antiquewhite; }
 /* Mobiles */
 @media (max-width: 767px) { body { padding: 12% 8% } }
 
+/* ================= ENDS ================ */
+
 h1 {
+    font-size: 84px;
+    margin-bottom: 64px;
     text-align: center;
     font-weight: normal;
-    letter-spacing: -2px;
-    margin-bottom: 32px;
-    font-size: 84px;
-    color: brown;
+    letter-spacing: 4px;
+    color: white;
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 28px;
     margin-bottom: 4px;
-    color: brown;
-}
-
-h3 {
-    font-size: 24px;
-    margin-bottom: 4px;
-    color: brown;
+    margin-top: 54px;
+    text-transform: uppercase;
+    color: white;
 }
 
 p {
+    font-size: 20px;
     font-family: sans-serif;
     line-height: 1.6;
     margin-bottom: 20px;
-    font-size: 18px;
+    color: white;
 }
 
-a { color: brown; }
+a { color: white; }
